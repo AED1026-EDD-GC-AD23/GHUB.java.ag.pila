@@ -56,22 +56,10 @@ public class Pila<T> {
 	 * @return la posición del elemento en la pila si lo encuentra
 	 *         si no regresa -1
 	 */
-	public int buscar(T elemento) {
-		Nodo <T> aux=cabeza;
-		int posicion=0;
-		//Recorre la Pila 
-		while(aux!=null) {
-			
-			if (aux.getValor().equals(elemento)) {
-				//si lo encuentra regresa la posicion
-				return posicion;
-			}
-			aux=aux.getSiguiente();
-			posicion++;
-		}
-			//Si salió por esta parte no lo encontro
-			return -1;
-	}
+	//Coloque aquí el método faltante el cual debe llamarse buscar y debe recibir como
+	//Argumento un elemento tipo T, es método debera regresar
+	//  la posición que ocupa en la pila y de no encomtrarse deberá regresar un -1
+	
 	
 	
 	
